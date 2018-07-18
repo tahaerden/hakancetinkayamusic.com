@@ -135,6 +135,14 @@ a:focus {
   overflow-y: auto;
 }
 
+@media (max-width: 600px) {
+
+.box {
+  max-height: 330px;
+  overflow-y: auto;
+}
+}
+
 blockquote {
   font-size: 1.4em;
   margin: 20px auto;
